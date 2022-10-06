@@ -1,0 +1,35 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-con {
+  background-color: #ffffff;
+  padding: 50px;
+  width: 40%;
+  border-radius: 20px;
+}
+.HCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.HImg {
+  width: 60px;
+}
+.FCard {
+  text-align: center;
+}
+.List {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
